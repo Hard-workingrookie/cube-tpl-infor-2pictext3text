@@ -1,0 +1,206 @@
+.cubebox-tmpl-wrap {
+  position: relative;
+}
+
+/* loading */
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* tabs */
+.tabs {
+  position: relative;
+  margin-bottom: 9px;
+}
+.tabs ul {
+  width: 90%;
+  height: 22px;
+  overflow: hidden;
+}
+.tabs ul .item {
+  float: left;
+  height: 22px;
+  padding: 0 10px;
+  margin-bottom: 9px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.tabs ul .item a {
+  display: block;
+}
+.tabs ul .item a:hover {
+  color: #50ca56;
+  text-decoration: none;
+}
+.tabs ul .more:hover {
+  color: #e60012;
+}
+.tabs ul .current {
+  background-color: #00c13c;
+}
+.tabs ul .current a {
+  color: #fff;
+}
+.tabs ul .current a:hover {
+  color: #fff;
+  cursor: default;
+}
+.tabs .more {
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #00c13c;
+}
+
+/* view */
+.img-list .item {
+  padding-left: 80px;
+  height: 55px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 14px;
+}
+.img-list .pic {
+  width: 70px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.img-list .pic img {
+  display: block;
+}
+.img-list .title {
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 7px;
+}
+.img-list .title a {
+  display: block;
+  float: left;
+}
+.img-list .title .split {
+  height: 14px;
+  width: 1px;
+  margin: 0 5px;
+  background: #333;
+  padding: 0;
+  float: left;
+}
+.img-list .title a.cate {
+  max-width: 48px;
+}
+.img-list .title a.tit {
+  max-width: 78%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.img-list .ext {
+  margin-bottom: 7px;
+  height: 14px;
+  line-height: 14px;
+}
+.img-list .ext b {
+  display: block;
+  float: left;
+  font-weight: normal;
+  margin-right: 8px;
+  color: #999;
+}
+.img-list .btm {
+  height: 14px;
+  line-height: 14px;
+  color: #999;
+  overflow: hidden;
+}
+.img-list .btm span {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.img-list .btm .company {
+  max-width: 50%;
+}
+.img-list .btm .contact {
+  max-width: 15%;
+}
+.img-list .btm .tag img {
+  display: block;
+}
+.img-list .btm .price {
+  float: right;
+  color: #ff6600;
+  max-width: 17%;
+  margin-right: 0;
+}
+
+.text-list {
+  padding-top: 14px;
+  border-top: 1px #ddd dotted;
+}
+.text-list .item {
+  margin-bottom: 7px;
+  position: relative;
+  font-size: 14px;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 7px;
+  overflow: hidden;
+}
+.text-list .item:before {
+  display: block;
+  content: '';
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -2px;
+  background: #ccc;
+  border-radius: 50%;
+}
+.text-list .item a {
+  float: left;
+}
+.text-list .item .cate {
+  max-width: 58px;
+  overflow: hidden;
+}
+.text-list .item .tit {
+  max-width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-list .item .split {
+  height: 16px;
+  width: 1px;
+  margin: 0 5px;
+  background: #333;
+  padding: 0;
+  float: left;
+}
+.text-list .item .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 16px;
+  line-height: 16px;
+  width: 15%;
+  color: #ff6600;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}

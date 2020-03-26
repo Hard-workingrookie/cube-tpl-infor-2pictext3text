@@ -1,0 +1,16 @@
+{
+	"id": "Q9xFzY7XwaT",
+	"version": "1.0.0",
+	"name": "信息列表模板",
+	"idn": "cube",
+	"keywords": [],
+	"ie": 8,
+	"disable_expand": false,
+	"launchimg": "assets/launchimg.png",
+	"files": [
+		"cube.tpl",
+		"cube.css",
+		"cube.js",
+		"assets/launchimg.png"
+	]
+}
