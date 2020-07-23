@@ -29,10 +29,10 @@
   border-radius: 2px;
   cursor: pointer;
 }
-.tabs ul .item a {
+.tabs ul .item span {
   display: block;
 }
-.tabs ul .item a:hover {
+.tabs ul .item span:hover {
   color: #50ca56;
   text-decoration: none;
 }
@@ -42,10 +42,10 @@
 .tabs ul .current {
   background-color: #00c13c;
 }
-.tabs ul .current a {
+.tabs ul .current span {
   color: #fff;
 }
-.tabs ul .current a:hover {
+.tabs ul .current span:hover {
   color: #fff;
   cursor: default;
 }

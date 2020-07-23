@@ -8,7 +8,7 @@
     <ul class="gclearfix">
       {{#list tabs as item by item_index}}
       <li class="item {{item_index === current ? 'current' : ''}}" on-click={{this.tabClick(item_index)}}>
-        <a href="javascript:void(0);" onclick="return false;">{{item}}</a>
+        <span>{{item}}</span>
       </li>
       {{/list}}
     </ul>
@@ -21,7 +21,7 @@
       {{#list views[current].img_list as item by item_index}}
       <li class="item">
         <a href="{{item.url}}" class="pic">
-          <img src="{{item.pic|clipImage: '70_55_'}}" onerror="this.onerror=null; this.src='https://hao1.qhimg.com/t014038eeaffbef78ca.png'" width="70" height="55" alt="{{item.title}}" />
+          <img src="{{item.pic|clipImage: '70_55_'}}" width="70" height="55" alt="{{item.title}}" />
         </a>
         <div class="desc">
           <p class="title gclearfix">

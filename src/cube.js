@@ -48,5 +48,8 @@ export default {
     this.setData({
       current: idx
     })
+  },
+  returnFalse () {
+    return false
   }
 }
